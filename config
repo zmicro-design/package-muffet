@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export PACKAGE_CORE_NAME="muffet"
+export PACKAGE_CORE_BIN_NAME="$PACKAGE_CORE_NAME"
+export PACKAGE_CORE_VERSION=v2.7.0
+export PACKAGE_CORE_ORG="raviqqe"
+
+export PACKAGE_CORE_GIT_REPOSITORY="https://github.com/${PACKAGE_CORE_ORG}/muffet"
+export PACKAGE_CORE_RELEASE_DOWNLOAD="${PACKAGE_CORE_GIT_REPOSITORY}/releases/download"
